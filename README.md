@@ -46,7 +46,7 @@ This web application allows users to generate custom QR codes from text, URLs, o
 
 ## Screenshots
 
-![Screenshot](.png)
+![QR_Generator](QR Generator.png)
 
 
 ## Contributions
