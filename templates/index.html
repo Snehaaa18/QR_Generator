@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="bi bi-align-center" style="font-size: 2em; color: #13191f;">Welcome to QR Generator</h1>
+</div>
+
+<div class="text-center">
+    <h2>How it Works?</h2>
+    <small class="text-muted">Just enter the text you want to convert into a QR code and click on the button.</small>
+</div>
+
+<div class="container mt-4">
+    <form class="form-group" action="/qr" method="post" id="info">
+        <div class="mb-3">
+            <label for="qrtext" class="form-label">Enter the text</label>
+            <input type="text" class="form-control" id="text" aria-describedby="textHelp" name="qrcreate" required>
+            <div id="textHelp" class="form-text">We'll never share your text with anyone else.</div>
+        </div>
+        <button id="qr" type="submit" class="btn btn-dark btn-outline-success btn-lg">Generate QR</button>
+    </form>
+</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js" integrity="sha384-bC/9pNcZ+47m9bFNa0xqspZpOSz7X/Sw6M5V5P0fWuM4l6xqik5u1Vn/6wuEJRX4" crossorigin="anonymous"></script>
+{% endblock %}
