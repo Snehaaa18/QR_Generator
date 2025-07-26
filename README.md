@@ -5,7 +5,6 @@ This web application allows users to generate custom QR codes from text, URLs, o
 ## Features:
 - **Customizable QR Codes**: Generate QR codes from text, URLs, or other user-input data.
 - **Instant QR Code Generation**: QR codes are generated instantly after submission.
-- **Download Option**: Users can download their generated QR code as an image file.
 - **Responsive Design**: The app is designed to be user-friendly on both desktop and mobile devices.
 - **Flask Backend**: Built using Flask to handle requests and render dynamic content.
 
